@@ -1,30 +1,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var consumiciones: [String] = []
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
                 Text("Mi Consumo Bar")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .padding()
                 
-                Text("✅ Proyecto listo para importar a Xcode")
-                    .font(.headline)
-                    .multilineTextAlignment(.center)
-                    .padding()
+                Text("Total bebidas: \(consumiciones.count)")
+                    .font(.title2)
                 
-                Text("Sigue la guía del README.md")
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                    .multilineTextAlignment(.center)
-                    .padding()
+                List {
+                    ForEach(consumiciones, id: \.self) { consumicion in
+                        Text(consumicion)
+                    }
+                }
+                
+                Button("Añadir Consumición") {
+                    consumiciones.append("Nueva bebida")
+                }
             }
             .navigationTitle("Consumo Bar")
         }
     }
-}
-
-#Preview {
-    ContentView()
 }
