@@ -129,7 +129,6 @@
 				A2000003 /* Assets.xcassets */,
 				A2000004 /* Preview Assets.xcassets */,
 			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		A2000025 /* MiConsumoBar.xcdatamodeld */ = {
