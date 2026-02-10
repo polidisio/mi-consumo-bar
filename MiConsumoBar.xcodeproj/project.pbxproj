@@ -129,6 +129,7 @@
 				A2000003 /* Assets.xcassets */,
 				A2000004 /* Preview Assets.xcassets */,
 			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A2000025 /* MiConsumoBar.xcdatamodeld */ = {
@@ -436,9 +437,9 @@
 		A2000026 /* MiConsumoBar.xcdatamodel */ = {
 			isa = XCVersionGroup;
 			children = (
-				A2000037 /* MiConsumoBar.xcdatamodel */,
+				A2000027 /* MiConsumoBar.xcdatamodel */,
 			);
-			currentVersion = A2000037 /* MiConsumoBar.xcdatamodel */;
+			currentVersion = A2000027 /* MiConsumoBar.xcdatamodel */;
 			path = MiConsumoBar.xcdatamodel;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
