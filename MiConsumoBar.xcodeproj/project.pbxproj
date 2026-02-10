@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A000001 /* MiConsumoBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000002 /* MiConsumoBarApp.swift */; };
-		1A000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000004 /* ContentView.swift */; };
-		1A000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000006 /* Assets.xcassets */; };
-		1A000007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000008 /* Preview Assets.xcassets */; };
-		1A000009 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000A /* PersistenceController.swift */; };
-		1A00000B /* MiConsumoBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000C /* MiConsumoBar.xcdatamodeld */; };
-		1A00000D /* Bebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000E /* Bebida.swift */; };
-		1A00000F /* Consumicion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000010 /* Consumicion.swift */; };
-		1A000011 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000012 /* CoreDataManager.swift */; };
-		1A000013 /* ConsumicionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000014 /* ConsumicionViewModel.swift */; };
-		1A000015 /* BebidaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000016 /* BebidaListViewModel.swift */; };
-		1A000017 /* BebidaCounterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000018 /* BebidaCounterCard.swift */; };
-		1A000019 /* HistorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00001A /* HistorialView.swift */; };
-		1A00001B /* AddConsumicionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00001C /* AddConsumicionView.swift */; };
-		1A00001D /* ConsumicionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00001E /* ConsumicionRowView.swift */; };
+		A1000001 /* MiConsumoBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* MiConsumoBarApp.swift */; };
+		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
+		A1000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000003 /* Assets.xcassets */; };
+		A1000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000004 /* Preview Assets.xcassets */; };
+		A1000005 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* PersistenceController.swift */; };
+		A1000006 /* MiConsumoBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* MiConsumoBar.xcdatamodeld */; };
+		A1000007 /* Bebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* Bebida.swift */; };
+		A1000008 /* Consumicion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* Consumicion.swift */; };
+		A1000009 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009 /* CoreDataManager.swift */; };
+		A1000010 /* ConsumicionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010 /* ConsumicionViewModel.swift */; };
+		A1000011 /* BebidaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011 /* BebidaListViewModel.swift */; };
+		A1000012 /* BebidaCounterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012 /* BebidaCounterCard.swift */; };
+		A1000013 /* HistorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013 /* HistorialView.swift */; };
+		A1000014 /* AddConsumicionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014 /* AddConsumicionView.swift */; };
+		A1000015 /* ConsumicionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015 /* ConsumicionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A000000 /* MiConsumoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiConsumoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A000002 /* MiConsumoBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiConsumoBarApp.swift; sourceTree = "<group>"; };
-		1A000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1A00000A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
-		1A00000C /* MiConsumoBar.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiConsumoBar.xcdatamodeld; sourceTree = "<group>"; };
-		1A00000E /* Bebida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebida.swift; sourceTree = "<group>"; };
-		1A000010 /* Consumicion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumicion.swift; sourceTree = "<group>"; };
-		1A000012 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		1A000014 /* ConsumicionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumicionViewModel.swift; sourceTree = "<group>"; };
-		1A000016 /* BebidaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidaListViewModel.swift; sourceTree = "<group>"; };
-		1A000018 /* BebidaCounterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidaCounterCard.swift; sourceTree = "<group>"; };
-		1A00001A /* HistorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialView.swift; sourceTree = "<group>"; };
-		1A00001C /* AddConsumicionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConsumicionView.swift; sourceTree = "<group>"; };
-		1A00001E /* ConsumicionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumicionRowView.swift; sourceTree = "<group>"; };
+		A2000000 /* MiConsumoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiConsumoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000001 /* MiConsumoBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiConsumoBarApp.swift; sourceTree = "<group>"; };
+		A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2000005 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		A2000006 /* MiConsumoBar.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiConsumoBar.xcdatamodeld; sourceTree = "<group>"; };
+		A2000007 /* Bebida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebida.swift; sourceTree = "<group>"; };
+		A2000008 /* Consumicion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consumicion.swift; sourceTree = "<group>"; };
+		A2000009 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A2000010 /* ConsumicionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumicionViewModel.swift; sourceTree = "<group>"; };
+		A2000011 /* BebidaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidaListViewModel.swift; sourceTree = "<group>"; };
+		A2000012 /* BebidaCounterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidaCounterCard.swift; sourceTree = "<group>"; };
+		A2000013 /* HistorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialView.swift; sourceTree = "<group>"; };
+		A2000014 /* AddConsumicionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConsumicionView.swift; sourceTree = "<group>"; };
+		A2000015 /* ConsumicionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumicionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A000020 /* Frameworks */ = {
+		A2000016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,88 +54,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A000021 = {
+		A2000017 = {
 			isa = PBXGroup;
 			children = (
-				1A000022 /* MiConsumoBar */,
-				1A000023 /* Products */,
+				A2000018 /* MiConsumoBar */,
+				A2000019 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A000022 /* MiConsumoBar */ = {
+		A2000018 /* MiConsumoBar */ = {
 			isa = PBXGroup;
 			children = (
-				1A000024 /* App */,
-				1A000025 /* Models */,
-				1A000026 /* Views */,
-				1A000027 /* ViewModels */,
-				1A000028 /* Resources */,
-				1A000029 /* MiConsumoBar.xcdatamodeld */,
+				A2000020 /* App */,
+				A2000021 /* Models */,
+				A2000022 /* Views */,
+				A2000023 /* ViewModels */,
+				A2000024 /* Resources */,
+				A2000025 /* MiConsumoBar.xcdatamodeld */,
 			);
 			path = MiConsumoBar;
 			sourceTree = "<group>";
 		};
-		1A000023 /* Products */ = {
+		A2000019 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A000000 /* MiConsumoBar.app */,
+				A2000000 /* MiConsumoBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A000024 /* App */ = {
+		A2000020 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				1A000002 /* MiConsumoBarApp.swift */,
-				1A00000A /* PersistenceController.swift */,
+				A2000001 /* MiConsumoBarApp.swift */,
+				A2000005 /* PersistenceController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		1A000025 /* Models */ = {
+		A2000021 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1A00000E /* Bebida.swift */,
-				1A000010 /* Consumicion.swift */,
-				1A000012 /* CoreDataManager.swift */,
+				A2000007 /* Bebida.swift */,
+				A2000008 /* Consumicion.swift */,
+				A2000009 /* CoreDataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		1A000026 /* Views */ = {
+		A2000022 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1A000004 /* ContentView.swift */,
-				1A000018 /* BebidaCounterCard.swift */,
-				1A00001A /* HistorialView.swift */,
-				1A00001C /* AddConsumicionView.swift */,
-				1A00001E /* ConsumicionRowView.swift */,
+				A2000002 /* ContentView.swift */,
+				A2000012 /* BebidaCounterCard.swift */,
+				A2000013 /* HistorialView.swift */,
+				A2000014 /* AddConsumicionView.swift */,
+				A2000015 /* ConsumicionRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		1A000027 /* ViewModels */ = {
+		A2000023 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				1A000014 /* ConsumicionViewModel.swift */,
-				1A000016 /* BebidaListViewModel.swift */,
+				A2000010 /* ConsumicionViewModel.swift */,
+				A2000011 /* BebidaListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		1A000028 /* Resources */ = {
+		A2000024 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A000006 /* Assets.xcassets */,
-				1A000008 /* Preview Assets.xcassets */,
+				A2000003 /* Assets.xcassets */,
+				A2000004 /* Preview Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1A000029 /* MiConsumoBar.xcdatamodeld */ = {
+		A2000025 /* MiConsumoBar.xcdatamodeld */ = {
 			isa = PBXGroup;
 			children = (
-				1A00002A /* MiConsumoBar.xcdatamodel */,
+				A2000026 /* MiConsumoBar.xcdatamodel */,
 			);
 			path = MiConsumoBar.xcdatamodeld;
 			sourceTree = "<group>";
@@ -143,13 +143,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A00002B /* MiConsumoBar */ = {
+		A2000027 /* MiConsumoBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A00002C /* Build configuration list for PBXNativeTarget "MiConsumoBar" */;
+			buildConfigurationList = A2000028 /* Build configuration list for PBXNativeTarget "MiConsumoBar" */;
 			buildPhases = (
-				1A00002D /* Sources */,
-				1A000020 /* Frameworks */,
-				1A00002E /* Resources */,
+				A2000029 /* Sources */,
+				A2000016 /* Frameworks */,
+				A2000030 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,25 +157,25 @@
 			);
 			name = MiConsumoBar;
 			productName = MiConsumoBar;
-			productReference = 1A000000 /* MiConsumoBar.app */;
+			productReference = A2000000 /* MiConsumoBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A00002F /* Project object */ = {
+		A2000031 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					1A00002B = {
+					A2000027 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 1A000030 /* Build configuration list for PBXProject "MiConsumoBar" */;
+			buildConfigurationList = A2000032 /* Build configuration list for PBXProject "MiConsumoBar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -183,53 +183,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A000021;
-			productRefGroup = 1A000023 /* Products */;
+			mainGroup = A2000017;
+			productRefGroup = A2000019 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A00002B /* MiConsumoBar */,
+				A2000027 /* MiConsumoBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A00002E /* Resources */ = {
+		A2000030 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A000007 /* Preview Assets.xcassets in Resources */,
-				1A000005 /* Assets.xcassets in Resources */,
+				A1000004 /* Preview Assets.xcassets in Resources */,
+				A1000003 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A00002D /* Sources */ = {
+		A2000029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A000003 /* ContentView.swift in Sources */,
-				1A000001 /* MiConsumoBarApp.swift in Sources */,
-				1A000009 /* PersistenceController.swift in Sources */,
-				1A00000B /* MiConsumoBar.xcdatamodeld in Sources */,
-				1A00000D /* Bebida.swift in Sources */,
-				1A00000F /* Consumicion.swift in Sources */,
-				1A000011 /* CoreDataManager.swift in Sources */,
-				1A000013 /* ConsumicionViewModel.swift in Sources */,
-				1A000015 /* BebidaListViewModel.swift in Sources */,
-				1A000017 /* BebidaCounterCard.swift in Sources */,
-				1A000019 /* HistorialView.swift in Sources */,
-				1A00001B /* AddConsumicionView.swift in Sources */,
-				1A00001D /* ConsumicionRowView.swift in Sources */,
+				A1000002 /* ContentView.swift in Sources */,
+				A1000001 /* MiConsumoBarApp.swift in Sources */,
+				A1000005 /* PersistenceController.swift in Sources */,
+				A1000006 /* MiConsumoBar.xcdatamodeld in Sources */,
+				A1000007 /* Bebida.swift in Sources */,
+				A1000008 /* Consumicion.swift in Sources */,
+				A1000009 /* CoreDataManager.swift in Sources */,
+				A1000010 /* ConsumicionViewModel.swift in Sources */,
+				A1000011 /* BebidaListViewModel.swift in Sources */,
+				A1000012 /* BebidaCounterCard.swift in Sources */,
+				A1000013 /* HistorialView.swift in Sources */,
+				A1000014 /* AddConsumicionView.swift in Sources */,
+				A1000015 /* ConsumicionRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A000031 /* Debug */ = {
+		A2000033 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		1A000032 /* Release */ = {
+		A2000034 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,7 +348,7 @@
 			};
 			name = Release;
 		};
-		1A000033 /* Debug */ = {
+		A2000035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -379,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		1A000034 /* Release */ = {
+		A2000036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -413,20 +413,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A00002C /* Build configuration list for PBXNativeTarget "MiConsumoBar" */ = {
+		A2000028 /* Build configuration list for PBXNativeTarget "MiConsumoBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A000033 /* Debug */,
-				1A000034 /* Release */,
+				A2000035 /* Debug */,
+				A2000036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A000030 /* Build configuration list for PBXProject "MiConsumoBar" */ = {
+		A2000032 /* Build configuration list for PBXProject "MiConsumoBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A000031 /* Debug */,
-				1A000032 /* Release */,
+				A2000033 /* Debug */,
+				A2000034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -434,17 +434,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1A00002A /* MiConsumoBar.xcdatamodel */ = {
+		A2000026 /* MiConsumoBar.xcdatamodel */ = {
 			isa = XCVersionGroup;
 			children = (
-				1A00002B /* MiConsumoBar.xcdatamodel */,
+				A2000037 /* MiConsumoBar.xcdatamodel */,
 			);
-			currentVersion = 1A00002B /* MiConsumoBar.xcdatamodel */;
+			currentVersion = A2000037 /* MiConsumoBar.xcdatamodel */;
 			path = MiConsumoBar.xcdatamodel;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1A00002F /* Project object */;
+	rootObject = A2000031 /* Project object */;
 }
