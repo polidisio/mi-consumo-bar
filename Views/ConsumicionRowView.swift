@@ -3,9 +3,17 @@ import SwiftUI
 struct ConsumicionRowView: View {
     let consumicion: Consumicion
     
-    private let coreDataManager = CoreDataManager.shared
+    private let persistenceController = PersistenceController.shared
     private var bebida: Bebida? {
-        coreDataManager.fetchBebidas().first { $0.id == consumicion.bebidaID }
+        let request: NSFetchRequest<Bebida> = Bebida.fetchRequest()
+        let context = persistenceController.container.viewContext
+        do {
+            let bebidas = try context.fetch(request)
+            return bebidas.first { $0.id == consumicion.bebidaID }
+        } catch {
+            print("Error fetching bebidas: \(error)")
+            return nil
+        }
     }
     
     var body: some View {

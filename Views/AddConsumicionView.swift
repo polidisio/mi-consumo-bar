@@ -11,7 +11,7 @@ struct AddConsumicionView: View {
     @State private var notas: String = ""
     @State private var timestamp: Date = Date()
     
-    private let coreDataManager = CoreDataManager.shared
+    private let persistenceController = PersistenceController.shared
     
     var body: some View {
         NavigationView {
@@ -119,12 +119,16 @@ struct AddConsumicionView: View {
         guard let cantidadInt = Int(cantidad) else { return }
         guard let precioDouble = Double(precioUnitario) else { return }
         
-        coreDataManager.addConsumicion(
-            bebidaID: bebida.id,
-            cantidad: cantidadInt,
-            precioUnitario: precioDouble,
-            notas: notas.isEmpty ? nil : notas
-        )
+        let context = persistenceController.container.viewContext
+        let consumicion = Consumicion(context: context)
+        consumicion.id = UUID()
+        consumicion.bebidaID = bebida.id
+        consumicion.cantidad = Int32(cantidadInt)
+        consumicion.precioUnitario = precioDouble
+        consumicion.timestamp = timestamp
+        consumicion.notas = notas.isEmpty ? nil : notas
+        
+        persistenceController.save()
         
         onRefresh()
         dismiss()

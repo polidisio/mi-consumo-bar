@@ -37,6 +37,12 @@ struct ContentView: View {
             .navigationTitle("Mi Consumo Bar")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("🔄 Reset") {
+                        viewModel.resetAllCounters()
+                    }
+                }
+                
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Historial") {
                         showingHistorial = true

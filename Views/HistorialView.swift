@@ -6,7 +6,7 @@ struct HistorialView: View {
     @State private var consumiciones: [Consumicion] = []
     @State private var showingDatePicker = false
     
-    private let coreDataManager = CoreDataManager.shared
+    private let persistenceController = PersistenceController.shared
     
     var body: some View {
         NavigationView {
@@ -105,14 +105,31 @@ struct HistorialView: View {
     }
     
     private func loadConsumiciones() {
-        consumiciones = coreDataManager.fetchConsumiciones(for: selectedDate)
+        let request: NSFetchRequest<Consumicion> = Consumicion.fetchRequest()
+        
+        let calendar = Calendar.current
+        let startOfDay = calendar.startOfDay(for: selectedDate)
+        let endOfDay = calendar.date(byAdding: .day, value: 1, to: startOfDay)!
+        
+        request.predicate = NSPredicate(format: "timestamp >= %@ AND timestamp < %@", startOfDay as NSDate, endOfDay as NSDate)
+        request.sortDescriptors = [NSSortDescriptor(key: "timestamp", ascending: false)]
+        
+        let context = persistenceController.container.viewContext
+        do {
+            consumiciones = try context.fetch(request)
+        } catch {
+            print("Error fetching consumiciones: \(error)")
+            consumiciones = []
+        }
     }
     
     private func deleteConsumiciones(at offsets: IndexSet) {
+        let context = persistenceController.container.viewContext
         for index in offsets {
             let consumicion = consumiciones[index]
-            coreDataManager.deleteConsumicion(consumicion)
+            context.delete(consumicion)
         }
+        persistenceController.save()
         loadConsumiciones()
     }
     
