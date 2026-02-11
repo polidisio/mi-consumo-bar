@@ -1,5 +1,11 @@
 import SwiftUI
 
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, World")
+    }
+}
+
 struct MiConsumoBarApp: App {
     var body: some Scene {
         WindowGroup {
